@@ -1,0 +1,10 @@
+let goods = [200, 550, 4000, 23, 58, 5000, 485, 711];
+let total = 0;
+let bonus = 0;
+let item;
+for (item of goods) {
+	total+=item;
+	if (total > 10000) {
+	bonus = Math.round(total * 5/100)} 
+}
+console.log(bonus);
